@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "money",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7_overflow_problem.sol": "Overflow"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7_overflow_problem.sol": {
+			"keccak256": "0x08d2b433eff8cd3feec4b63f591cdde9caeacd9d9a308a33356a668662c3c8a4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ebdebada6bd21730e758b3e10e0bac343b9b6e6bbde62c3d120765b68d54036a",
+				"dweb:/ipfs/QmYCfCFfubbbDLsQpjEVAdgMCN5XbCqUVG9m3kT28HrPjp"
+			]
+		}
+	},
+	"version": 1
+}
